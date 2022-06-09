@@ -1,4 +1,4 @@
-# From Vuex to Pinia
+# Vite, Tailwind, Pinia, Vue 3
 Vite scaffolding with Vue 3 and Pinia for state management
 
 # Local Setup Instructions
