@@ -1,0 +1,98 @@
+{
+  "events": [
+    {
+      "id": 123,
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Find your new feline friend at this event.",
+      "location": "Meow Town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "organizer": "Kat Laydee"
+    },
+    {
+      "id": 456,
+      "category": "food",
+      "title": "Community Gardening",
+      "description": "Join us as we tend to the community edible plants.",
+      "location": "Flora City",
+      "date": "March 14, 2022",
+      "time": "10:00",
+      "organizer": "Fern Pollin"
+    },
+    {
+      "id": 789,
+      "category": "sustainability",
+      "title": "Beach Cleanup",
+      "description": "Help pick up trash along the shore.",
+      "location": "Playa Del Carmen",
+      "date": "July 22, 2022",
+      "time": "11:00",
+      "organizer": "Carey Wales"
+    },
+    {
+      "id": "3ef0582c-d483-4e2f-b2e6-9a62a18fdde5",
+      "category": "nature",
+      "title": "hug a tree",
+      "description": "wrap your arms around and squeeze",
+      "location": "forest",
+      "date": "today",
+      "time": "every 25 minutes",
+      "organizer": "Nikki Petersen"
+    },
+    {
+      "id": "1c1f34ea-3aa5-416a-b7fb-1ca06f89e196",
+      "category": "nature",
+      "title": "save a bunny from snowy",
+      "description": "poor lil bunbun",
+      "location": "front porch",
+      "date": "tomorrow",
+      "time": "6 am",
+      "organizer": "Nikki Petersen"
+    },
+    {
+      "id": "fa06b56d-4291-4ba9-b976-d901962a484f",
+      "category": "animal welfare",
+      "title": "poor lil bunbun",
+      "description": "decapitated",
+      "location": "front porch",
+      "date": "today",
+      "time": "4 am",
+      "organizer": "Nikki Petersen"
+    },
+    {
+      "id": "3d177287-b372-44d0-ba85-ab9589456c96",
+      "category": "food",
+      "title": "🥓 bacon",
+      "description": "all the food",
+      "location": "eat when you see",
+      "date": "today",
+      "time": "all day",
+      "organizer": "Nikki Petersen"
+    },
+    {
+      "id": "536a6e22-a031-471f-b651-5a412756bd41",
+      "category": "nature",
+      "title": "blah",
+      "description": "blah",
+      "location": "test",
+      "date": "dha",
+      "time": "hasdf",
+      "organizer": "Nikki Petersen"
+    }
+  ],
+  "users": [
+    {
+      "id": "42",
+      "firstName": "Tricia",
+      "lastName": "McMillan",
+      "email": "Trillian@HG2G.com"
+    },
+    {
+      "id": "42-42",
+      "firstName": "Leia",
+      "lastName": "Organa",
+      "email": "MyOnlyHope@rebels.com"
+    }
+  ]
+}
