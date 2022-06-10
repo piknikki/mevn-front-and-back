@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // mock API
 const apiClient = axios.create({
-  baseURL: 'http://localhost:3000',
+  baseURL: 'http://localhost:5000',
   withCredentials: false,
   headers: {
     Accept: 'application/json',
@@ -21,6 +21,6 @@ export default {
     return apiClient.post('/events', event)
   },
   getUser(id) {
-    return apiClient.get('/users/' + id)
+    return apiClient.get('/v1/things/users')
   },
 }
