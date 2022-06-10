@@ -3,16 +3,16 @@ import EventService from "../services/EventService";
 
 export const useUserStore = defineStore('UserStore', {
   state: () => ({
-    user: '',
+    userData: '',
   }),
   getters: {
-    firstName() {
-      return this.user.firstName
+    fullName() {
+      return `${this.userData.firstName} ${this.userData.lastName}`
     },
     currentUser() {
       return EventService.getUser(42)
         .then(response => {
-          this.user = response.data
+          this.userData = response.data.user
         })
         .catch(error => {
           throw error

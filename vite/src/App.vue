@@ -5,7 +5,7 @@
       <router-link :to="{ name: 'ProfileView' }">Profile</router-link> |
       <router-link :to="{ name: 'About' }">About</router-link>
       |
-      <p>Logged in as {{ userStore.user.user.firstName }}</p>
+      <p>Logged in as {{ userStore.fullName }}</p>
     </div>
     <router-view />
   </div>
